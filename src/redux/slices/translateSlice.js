@@ -3,8 +3,14 @@ import { act } from "react";
 import { translateText } from "../actions";
 
 const initialState = {
-    sourceLang: {},
-    targetLang: {},
+    sourceLang: {
+        value: "tr",
+        label: "Turkish",
+    },
+    targetLang: {
+        value: "en",
+        label: "English",
+    },
     textToTranslate: "",
     translatedText: "",
     isLoading: false,
