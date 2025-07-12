@@ -20,7 +20,7 @@ const initialState = {
 const translateSlice = createSlice({
     name: "language",
     initialState,
-    // senkron aksiyonlar burda
+    // senkron aksiyonlar burada
     reducers: {
         setSource: (state, action) => {
             state.sourceLang = action.payload;
