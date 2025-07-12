@@ -17,7 +17,7 @@ A simple multilingual translation application built with React, Redux Toolkit, a
 
 ## 🚀 Features / Özellikler
 
-### English
+
 - Translate text between languages
 - Language selection with `react-select`
 - Global state management using Redux Toolkit
